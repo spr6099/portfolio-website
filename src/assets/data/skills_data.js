@@ -1,19 +1,19 @@
 import React from "react";
-import reactImg from "../assets/skills/react.png";
-import nodeImg from "../assets/skills/node.png";
-import expressImg from "../assets/skills/express.png";
-import mongodbImg from "../assets/skills/mongodb.png";
-import firebaseImg from "../assets/skills/firebase.png";
-import reduxImg from "../assets/skills/redux.png";
-import gitImg from "../assets/skills/git.png";
-import githubImg from "../assets/skills/github.png";
-import tailwindImg from "../assets/skills/tailwind.png";
-import framerImg from "../assets/skills/framer.png";
-import angularImg from "../assets/skills/angular.png";
-import javascriptImg from "../assets/skills/javascript.png";
-import htmlImg from "../assets/skills/html.png";
-import cssImg from "../assets/skills/css.png";
-import postmanImg from "../assets/skills/postman.png";
+import reactImg from "../../assets/skills/react.png";
+import nodeImg from "../../assets/skills/node.png";
+import expressImg from "../../assets/skills/express.png";
+import mongodbImg from "../../assets/skills/mongodb.png";
+import firebaseImg from "../../assets/skills/firebase.png";
+import reduxImg from "../../assets/skills/redux.png";
+import gitImg from "../../assets/skills/git.png";
+import githubImg from "../../assets/skills/github.png";
+import tailwindImg from "../../assets/skills/tailwind.png";
+import framerImg from "../../assets/skills/framer.png";
+import angularImg from "../../assets/skills/angular.png";
+import javascriptImg from "../../assets/skills/javascript.png";
+import htmlImg from "../../assets/skills/html.png";
+import cssImg from "../../assets/skills/css.png";
+import postmanImg from "../../assets/skills/postman.png";
 
 const AllSkills = [
   {
@@ -72,7 +72,7 @@ const AllSkills = [
   },
   {
     title: "GIT HUB ",
-    image: reduxImg,
+    image: githubImg,
   },
   {
     title: "POSTMAN",

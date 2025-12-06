@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Skills.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import Skills_data from "../../assets/skills_data";
+import Skills_data from "../../assets/data/skills_data";
 
 import arrow_icon from "../../assets/arrow_icon.svg";
 

@@ -73,6 +73,16 @@
   gap: 30px;
 }
 
+/* In MyWork.css */
+.mywork-desc {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+  text-align: center; /* or left */
+}
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .mywork {

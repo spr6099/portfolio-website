@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./MyWork.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import mywork_data from "../../assets/mywork_data";
+import mywork_data from "../../assets/data/mywork_data";
 import arrow_icon from "../../assets/arrow_icon.svg";
 
 const MyWork = () => {
@@ -22,9 +22,16 @@ const MyWork = () => {
             <h2>{work.name}</h2>
             <img
               src={work.img}
-              onClick={() => window.open(work.site, "_blank")}
               alt={work.name}
+              onClick={() => {
+                if (work.site) {
+                  window.open(work.site, "_blank");
+                } else {
+                  alert("Link not available");
+                }
+              }}
             />
+            <p className="mywork-desc">{work.description}</p>
           </div>
         ))}
       </div>
